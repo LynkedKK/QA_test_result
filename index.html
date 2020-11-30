@@ -250,40 +250,31 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <h1>report.html</h1>
-    <p>Report generated on 19-Nov-2020 at 23:51:20 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.0.0</p>
+    <h1>index.html</h1>
+    <p>Report generated on 30-Nov-2020 at 05:01:08 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.0.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
+        <td>CI</td>
+        <td>true</td></tr>
+      <tr>
         <td>JAVA_HOME</td>
-        <td>/usr/lib/jvm/java-11-openjdk-amd64</td></tr>
+        <td>/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64</td></tr>
       <tr>
         <td>Packages</td>
         <td>{"pluggy": "0.13.1", "py": "1.9.0", "pytest": "6.1.2"}</td></tr>
       <tr>
         <td>Platform</td>
-        <td>Linux-5.4.0-53-generic-x86_64-with-glibc2.29</td></tr>
+        <td>Linux-5.4.0-1031-azure-x86_64-with-glibc2.29</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"html": "3.0.0", "metadata": "1.10.0"}</td></tr>
+        <td>{"html": "3.0.0", "json-report": "1.2.4", "metadata": "1.11.0", "parallel": "0.1.0"}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.8.5</td></tr>
-      <tr>
-        <td>TRAVIS_BRANCH</td>
-        <td>1</td></tr>
-      <tr>
-        <td>TRAVIS_BUILD_NUMBER</td>
-        <td>1</td></tr>
-      <tr>
-        <td>TRAVIS_COMMIT</td>
-        <td>1</td></tr>
-      <tr>
-        <td>TRAVIS_REPO_SLUG</td>
-        <td>1</td></tr></table>
+        <td>3.8.5</td></tr></table>
     <h2>Summary</h2>
-    <p>7 tests ran in 98.01 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">7 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 10.05 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -297,79 +288,15 @@ function filter_table(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">tests/UI_test/functional/test_functional_Helloworld.py::test_lib_directory</td>
-          <td class="col-duration">0.00</td>
+          <td class="col-name">tests/UI_test/functional/smoke_test_remote_parallel/test_TID_004.py::test_TID_004</td>
+          <td class="col-duration">9.83</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>&#x27;/home/logic/_workspace/LynkedKK_QA_test_scripts/tests&#x27;
-lib_helloworld helloworld
-po_helloworld helloworld
-ele_helloworld helloworld
-config_helloworld helloworld
-assert_helloworld
-<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/UI_test/functional/test_functional_Helloworld.py::test_functional_Helloworld</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>helloworld
-<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/UI_test/functional/test_happyflow_1/test_happyflow_1.py::test_happyflow_1</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>helloworld_happyflow_1
-<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/UI_test/functional/test_happyflow_1/test_happyflow_1_chrome.py::test_happyflow_1_chrome</td>
-          <td class="col-duration">34.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>debug: diff result 0.0
-debug: image_test_threshold 0.05
-debug: diff assert diff result True
-<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/UI_test/functional/test_happyflow_1/test_happyflow_1_firefox.py::test_happyflow_1_firefox</td>
-          <td class="col-duration">36.15</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>debug: diff result 0.0
-debug: image_test_threshold 0.05
-debug: diff assert diff result True
-<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/UI_test/functional/test_viewport/test_ViewPort_food.py::test_ViewPort</td>
-          <td class="col-duration">18.30</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>&#x27;reports/functional/test_viewport/food/viewport_name_test.png&#x27;
-<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">tests/UI_test/functional/test_viewport/test_ViewPort_manage.py::test_ViewPort</td>
-          <td class="col-duration">9.41</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>&#x27;reports/functional/test_viewport/manage/viewport_name_test.png&#x27;
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>debug: file: tests/UI_test/functional/smoke_test_remote_parallel/actual/TID_001_1_sc_63.png, threshold 0.054, diff result 0.03487168474642943, verdict True
+debug: file: tests/UI_test/functional/smoke_test_remote_parallel/actual/TID_003_1_sc_83.png, threshold 0.054, diff result 0.03487168474642943, verdict True
+debug: file: tests/UI_test/functional/smoke_test_remote_parallel/actual/TID_003_2_sc_80.png, threshold 0.054, diff result 0.011580622314512226, verdict True
+debug: file: tests/UI_test/functional/smoke_test_remote_parallel/actual/TID_004_1_sc_65.png, threshold 0.054, diff result 0.011580622314512226, verdict True
+redirect me using tapTopLeftCloseButton
+debug: file: tests/UI_test/functional/smoke_test_remote_parallel/actual/TID_004_2_sc_31.png, threshold 0.054, diff result 0.038958496921145, verdict True
 <br/></div></td></tr></tbody></table></body></html>
